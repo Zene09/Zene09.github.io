@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1 {
+    background: -webkit-radial-gradient(white, orange, red);
+    font-family: Chewy;
+    text-align: center;
+    padding: 20px;
+    border: 5px dotted black;
+}
+h2 {
+    display: inline-block;
+    font-family: Chewy;
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 85%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+#canvas1 {
+    background: gainsboro;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#player, #hand, #treat {
+    display: none;
+}
+h3 {
+    color: darkgoldenrod;
+    font-family: Chewy;
+    font-size: x-large;
+    position: absolute;
+    display: inline-block;
+    top: 85%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}

@@ -1,4 +1,4 @@
-# project_1
+# Vet Evasion
 - first game project 1 for SEIR-66-icepops
 
 # User Story
